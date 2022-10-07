@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    background-color: aqua;
+    position: fixed;
+    height: 100px;
+    width: 1020px;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.login{
+    margin: 40px;
+    position: absolute;
+    right: 0px;
+    display:flex;
+   
+}
+button{
+    margin-left: 10px;
+    margin-right:25px;
+}
+
