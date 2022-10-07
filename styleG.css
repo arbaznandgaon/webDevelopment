@@ -1,0 +1,48 @@
+body {
+    padding:100px;
+    margin:100px;
+    text-align: center;
+}
+
+.flexbox-item{
+    height: 150px;
+    width: 1000px;
+    margin:0px;
+   
+    
+}
+.flexbox-item1 {
+        background-color: gainsboro;
+}
+.flexbox-item2{
+    display: flex;
+    text-align:center;
+    color: coral;
+}
+ .flexbox-item3 {
+    height: 150px;
+    width:400px;
+    margin: 0px;
+    color: brown;
+     }
+ .flexbox-item4 {
+    height: 150px;
+    width:400px;
+    margin: 0px;
+    color: rgb(13, 16, 84);
+     }
+ .flexbox-item5 {
+    height: 150px;
+    width:400px;
+    margin: 0px;
+    color: darkslategray;
+    }
+ .flexbox-item3 {
+    background-color: rgb(22, 155, 237);
+ }
+ .flexbox-item4 {
+    background-color: rgb(87, 197, 241);
+ }
+ .flexbox-item5 {
+    background-color:rgb(49, 135, 188) ;
+ }
