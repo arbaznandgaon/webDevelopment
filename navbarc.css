@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+
+.navbar{
+   display: flex;
+   background-color:gray;
+   position: fixed;
+   height:25px;
+   width: 1920px;
+   left: 0px;
+   top: 0px;
+}
+.logo {
+   margin-top:0px; 
+    color: rgb(68, 71, 70);
+}
+.login{
+    background-color: black;
+    color: gray;
+    margin: 0px;
+    right: 10px;
+    position: fixed;
+}
+
+h3{
+    margin-top: 0px;
+}
