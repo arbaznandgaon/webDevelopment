@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>    <meta charset="utf-8">
+        <title>   
+            Claculate Area of Circle
+        </title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-blue-300"> <div class="text-center h-50 bg-white mt-10">
+      <div class="font-bold text-xl "> Radius <input type="text" name="radius" id="cl1" value="0"></div> <br>
+<button class="bg-gray-200 text-xl" id="cl1" onclick="calculate()">
+    Calculate
+</button>
+<button class="bg-gray-200 text-xl "  onclick="reset()">
+   Reset
+</button> <br><br>
+<div class="text-4xl font-bold  italic" id="cl2">Area Of Circle is = 0</div>
+</div>
+      <script>
+        function calculate(){
+        var r = Number (document.getElementById("cl1").value) ;
+        const p = 3.14;
+        var areaOfCircle = p*r*r;
+        document.getElementById("cl2").innerHTML =  "Area Of Circle is = " + areaOfCircle ;
+     
+     }
+     
+     function reset(){
+         document.getElementById("cl1").value=0;
+         document.getElementById("cl2").innerHTML =  "Area Of Circle is = 0";
+     
+     }
+       </script>
+    </body>
+</html>
